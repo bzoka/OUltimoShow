@@ -27,10 +27,10 @@ const countdown = function () {
     document.querySelector('.minutes').textContent = zeroPadding(minutes);
     document.querySelector('.seconds').textContent = zeroPadding(seconds);
   } else {
-    document.querySelector('.days').textContent = zeroPadding(0);
-    document.querySelector('.hours').textContent = zeroPadding(0);
-    document.querySelector('.minutes').textContent = zeroPadding(0);
-    document.querySelector('.seconds').textContent = zeroPadding(0);
+    document.querySelector('.days').textContent = ":D";
+    document.querySelector('.hours').textContent = ":D";
+    document.querySelector('.minutes').textContent = ":D";
+    document.querySelector('.seconds').textContent = ":D";
   }
 };
 
